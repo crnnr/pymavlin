@@ -21,7 +21,6 @@ jobs:
         python-version: '3.9'
     - name: Install mavlin message
       run: |
-        git clone https://github.com/crnnr/mavlin.git
         ln -s $PWD/mavlink/message_definitions
     - name: Install dependencies
       run: |
