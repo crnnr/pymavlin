@@ -18,9 +18,9 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.9'
-    - name: Install mavlink message
+    - name: Install mavlin message
       run: |
-        git clone https://github.com/ArduPilot/mavlink.git
+        git clone https://github.com/crnnr/mavlin.git
         ln -s $PWD/mavlink/message_definitions
     - name: Install dependencies
       run: |
